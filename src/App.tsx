@@ -3,6 +3,7 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 import Header from "./containers/Header";
+import Body from "./containers/Body";
 
 const GlobalStyle = createGlobalStyle`
     html, body{
@@ -17,6 +18,7 @@ const App: React.FC = () => (
   <>
     <GlobalStyle />
     <Header />
+    <Body />
   </>
 );
 
